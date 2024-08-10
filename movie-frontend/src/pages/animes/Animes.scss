@@ -1,0 +1,30 @@
+@import '../../styleVariables/colours.scss';
+
+.animes-container {
+  margin-left: 65px;
+}
+
+.animes-row-container {
+  max-height: 205px;
+  overflow: hidden;
+}
+
+.animes-img {
+  width: 150px;
+  height: 205px;
+  object-fit: cover;
+  border-radius: 10px 0 0 10px;
+}
+
+.animes-info-container {
+  background: rgba(1, 22, 39, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 0 10px 10px 0;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.animes-desc {
+  text-overflow: hidden;
+}

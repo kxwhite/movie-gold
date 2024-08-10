@@ -1,0 +1,46 @@
+@import "../../styleVariables/colours.scss";
+
+.home-container {
+  display: flex;
+  width: 100%;
+}
+
+.home-left-section-container {
+  margin-left: 70px;
+  width: 100%;
+}
+
+.home-recents-image-container {
+  // Linked to Shine Effect
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(154px, 1fr));
+  grid-template-rows: 1fr;
+  column-gap: 23px;
+  row-gap: 15px;
+
+  margin-left: 16px;
+}
+
+.home-recents-image {
+  width: 184px;
+  height: 315px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 8px;
+}
+
+.home-right-section-container {
+  margin: 20px 20px 0 0;
+  width: 400px;
+}
+
+.home-right-section-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-add-category-btn {
+  color: $primary;
+  border-color: $primary;
+}

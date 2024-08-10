@@ -1,0 +1,28 @@
+@import "../../../../styleVariables/colours.scss";
+
+.watchlist-img {
+  width: 184px;
+  height: 315px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 8px;
+}
+
+.watchlist-img-container {
+  position: relative;
+  width: 184px;
+  height: 315px;
+}
+
+.watchlist-cancel-btn {
+  position: absolute;
+  top: 45%;
+  left: 42%;
+  color: $grey;
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.watchlist-cancel-btn:hover {
+  color: white;
+}

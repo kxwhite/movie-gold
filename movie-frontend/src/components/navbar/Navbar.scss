@@ -1,0 +1,53 @@
+@import "../../styleVariables/colours.scss";
+
+// Main Nav CSS
+.nav-container {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+// Nav Left CSS
+.nav-tab {
+  color: $grey;
+  font-weight: "normal";
+  cursor: pointer;
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    color: #e5e7e9;
+    font-weight: 600;
+  }
+}
+
+.nav-active-tab {
+  color: $primary;
+  font-weight: "bold";
+  cursor: pointer;
+}
+
+.nav-left-menu-icon {
+  color: $primary;
+  background-color: #01121F;
+}
+
+// Nav Right CSS
+.nav-right-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-right-avatar-container {
+  display: flex;
+  align-items: center;
+  margin: 0 16px;
+}
+
+.nav-right-icons {
+  color: $primary;
+  cursor: pointer;
+  &:hover {
+    transition: scale 0.2s ease-in-out;
+    scale: 1.1;
+  }
+}

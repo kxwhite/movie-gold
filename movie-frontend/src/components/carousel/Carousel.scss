@@ -1,0 +1,86 @@
+@import "../../styleVariables/colours.scss";
+
+/* Carousel CSS */
+.movie-carousel-container {
+  // width: 100vw;
+  width: 100%;
+  height: 442px;
+  margin: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: $darkPurple;
+}
+
+.movie-card-container {
+  height: 442px;
+  background-color: black;
+}
+
+.movie-card {
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.movie-details {
+  position: absolute;
+  bottom: 50px;
+  left: 40px;
+  width: 93%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie-title, .movie-year {
+  color: white;
+}
+
+.movie-details-right {
+
+}
+
+
+
+/* Play Button CSS*/
+
+.movie-buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+}
+
+.play-button-icon-container {
+  padding: 0;
+  margin: 0;
+  width: 150px;
+}
+
+.play-button-icon {
+  padding: 0;
+  margin: 0;
+  color: gold;
+  font-size: 3rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.play-button-icon:hover {
+  font-size: 3.5rem;
+  color: darkgoldenrod;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 800px) {
+  .movie-details {
+    flex-direction: column;
+    align-items: center;
+    top: 20px;
+  }
+
+  .movie-title {
+    margin: 20px 0;
+  }
+}

@@ -1,0 +1,37 @@
+@import "../../styleVariables/colours.scss";
+
+.reviews-main-container {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.reviews-card-row-container {
+  overflow-y: auto;
+  margin: 0px -32px;
+  padding: 0px 32px;
+}
+
+// .reviews-hr, .reviews-form {
+//   padding: 0px 62px 0 42px !important;
+// }
+
+.reviews-card-row-container::-webkit-scrollbar {
+  width: 20px;
+}
+
+.reviews-card-row-container::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.reviews-card-row-container::-webkit-scrollbar-thumb {
+  // background-color: #d6dee1;
+  background-color: $primary;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+.reviews-card-row-container::-webkit-scrollbar-thumb:hover {
+  // background-color: #a8bbbf;
+  background-color: #2db5a3;
+}
