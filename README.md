@@ -75,7 +75,7 @@ cd movie-gold
     npm start
     ```
 
-- The frontend will be available at http://localhost:3001.
+- The frontend will be available at http://localhost:3000.
 
 **2. Backend:**
 
@@ -94,11 +94,10 @@ cd movie-gold
 
 ### Accessing the Application
 
-- **Frontend:** Open your web browser and go to http://localhost:3001.
+- **Frontend:** Open your web browser and go to http://localhost:3000.
 - **Backend: **The backend API will be running at http://localhost:8080.
 
 ## Features
 
 - **Get Movies:** Retrieve a list of recent movies, series, TV shows, and animes.
 - **Create Reviews:** Users can submit reviews for the latest movies.
-
