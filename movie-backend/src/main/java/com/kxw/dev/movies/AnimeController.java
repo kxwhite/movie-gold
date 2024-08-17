@@ -15,7 +15,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3001")
+@CrossOrigin(origins = { "http://localhost:3000", "https://kxw-movie-gold.onrender.com/" })
 @RequestMapping("/api/v1/animes")
 public class AnimeController {
 
